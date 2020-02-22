@@ -15,6 +15,7 @@ For doing this it uses :
 
 ATM, nothing ! This is the early stage of the project.
 Next step for me is to check if a specific streamer is live (❤️ [mistermv](https://www.twitch.tv/mistermv))
+If you want to know more about the progress, check the github project.
 
 # Installation
 
@@ -24,12 +25,13 @@ To install this project, just do: `pipenv install`.
 Then we'll need to configure IFTTT. To do this, you can copy the applet linked above.
 Configure this freshly copied IFTTT applet to redirect response to your url
 (It should look like this : `http://example.com/is_live/`), set the language
-and what you want to say to your google home to enable it.
+and what you want to say to your assistant to enable it.
 
-You can use [localtunnel](https://localtunnel.github.io/www/) if you use the API locally.
+You can use [localtunnel](https://localtunnel.github.io/www/) if you use the API locally
+to get an URL accessible for IFTTT.
 
 Now, it's time to run this API 🥳 !
 You can run the project with the command : `pipenv run python app.py`.
 You'll be greeting with the swagger interface of the API in debug mode.
 
-And voilà, your setup is finished. You can use the command
+And voilà, your setup is finished. You can use the command on you Google Home !
