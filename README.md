@@ -30,6 +30,11 @@ and what you want to say to your assistant to enable it.
 You can use [localtunnel](https://localtunnel.github.io/www/) if you use the API locally
 to get an URL accessible for IFTTT.
 
+Next, you'll need to get your Twitch API access. For that,
+[Follow the Twitch API guide](https://dev.twitch.tv/docs/api#step-1-setup).
+Then, copy / paste `.env.example` and rename it `.env` . Complete the values inside
+it with the corresponding IDs you have generated on your Twitch API Dashboard.
+
 Now, it's time to run this API 🥳 !
 You can run the project with the command : `pipenv run python app.py`.
 You'll be greeting with the swagger interface of the API in debug mode.
