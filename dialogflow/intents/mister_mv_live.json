@@ -1,0 +1,73 @@
+{
+  "id": "66e4c9b8-e076-4d53-9fc2-2c3d9a903434",
+  "name": "mister_mv_live",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "c60c3973-50bb-4624-8058-0c907618c759",
+      "data": [
+        {
+          "text": "Est-ce que Mister MV est en ligne ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aa0ba823-91e6-43e0-ae43-87870902c7a7",
+      "data": [
+        {
+          "text": "Mister MV est en live ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5bd04d25-4243-4141-86fd-9af011288cb1",
+      "data": [
+        {
+          "text": "Est ce que Mister MV stream ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
