@@ -16,5 +16,8 @@ class IsLive(Resource):
         try:
             next(streams)
         except StopIteration:
-            return {'fulfillment_text': "Non, Mister MV n'est pas en stream."}, 200
+            return (
+                {'fulfillment_text':
+                 "Non, Mister MV n'est pas en stream."},
+                200)
         return {'fulfillment_text': "Oui, Mister MV est en ligne !"}, 200
